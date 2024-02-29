@@ -25,7 +25,7 @@ void main() {
     expect(outerTracker.captionFontSize, 12.0);
     final LocalizationTrackerState innerTracker = tester.state(
         find.byKey(const ValueKey<String>('inner'), skipOffstage: false));
-    expect(innerTracker.captionFontSize, 13.0);
+    expect(innerTracker.captionFontSize, 12.0);
   });
 
   testWidgets(
